@@ -1,10 +1,11 @@
 import React from 'react'
 import State from './components/State'
+import Effect from './components/Effect'
 
 function App() {
   return (
     <div>
-      <State/>
+      <Effect/>
     </div>
   )
 }
