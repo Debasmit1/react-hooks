@@ -2,20 +2,30 @@ import React , {useState} from 'react'
 
 function State() {
 
-    const [count, setCount] = useState(0);
+    const [state, setState] = useState({count:0,theme:'red'});
+
+    const count = state.count;
+    const theme = state.theme;
 
     const decrementCount = () => {
-        setCount(prevCount => prevCount-1);
+        setState(prevState => {
+            return {...prevState, count: prevState.count - 1, theme: 'Yellow'}
+        }
+        )
     }
 
     const incrementCount = () => {
-        setCount(prevCount => prevCount+1);
+        setState(prevState=> {
+            return {...prevState,count:prevState.count + 1,theme:'blue'}
+        }
+        )
     }
 
   return (
     <>
         <button onClick={decrementCount}>-</button>
         <span>{count}</span>
+        <span>{theme}</span>
         <button onClick={incrementCount}>+</button>
     </>
   )
