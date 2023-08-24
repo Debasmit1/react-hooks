@@ -18,3 +18,4 @@ I will be covering the react hooks with the referral video
 
  ## useRef
  [refer YouTube video](https://youtu.be/t2ypzz6gJm0?feature=shared)
+ [refer HashNode article](https://debasmitbiswal.hashnode.dev/understanding-the-power-of-useref-preventing-infinite-renders-and-differences-from-usestate-in-react)
