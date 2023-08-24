@@ -14,3 +14,6 @@ I will be covering the react hooks with the referral video
 
 ## useMemo
  [refer YouTube video](https://youtu.be/THL1OPn72vo)
+ [refer HashNode article](https://debasmitbiswal.hashnode.dev/maximizing-performance-with-reacts-usememo-hook)
+
+ ## useRef
